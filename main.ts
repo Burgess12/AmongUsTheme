@@ -9,12 +9,12 @@ function Sus () {
 input.onButtonPressed(Button.A, function () {
     basic.showLeds(`
         . # # # .
-        . # . . #
-        . # # # #
-        . # # # .
-        . # . # .
+        # . . # #
+        # # # # #
+        # # # # .
+        # . . # .
         `)
-    music.setVolume(175)
+    music.setVolume(99)
     Sus()
     Clasic()
     Sus()
